@@ -85,22 +85,24 @@ EXIT /B 0
     cecho {olive}[TOOLSET - UTILS - MESON]{red} ERROR: %~1 {default} {\n}
 EXIT /B 0
 
+
+
 :SHOW_HELP
     SET "script_name=%~n0%~x0"
     ECHO #######################################################################
     ECHO #                                                                     #
     ECHO #                      T O O L   S E T U P                            #
     ECHO #                                                                     #
-    ECHO #     'Meson' is an open source build system meant to be both         # 
+    ECHO #     'MESON' is an open source build system meant to be both         # 
     ECHO #      extremely fast, and, even more importantly, as user            #
     ECHO #      friendly as possible.                                          #
     ECHO #                                                                     #
-    ECHO # TOOL   : Meson                                                      #
+    ECHO # TOOL   : MESON                                                      #
     ECHO # VERSION: 0.54.999                                                   #
     ECHO # ARCH   : x64                                                        #
     ECHO #                                                                     #
     ECHO # USAGE:                                                              #
-    ECHO #   %SCRIPT_NAME% [-h^|--help^|--pack^|--unpack]                             #
+    ECHO #     %SCRIPT_NAME% [-h^|--help^|--pack^|--unpack]                           #
     ECHO #                                                                     #
     ECHO # EXAMPLES:                                                           #
     ECHO #     %script_name%                                                       #
@@ -123,7 +125,7 @@ EXIT /B 0
     ECHO #     PATH    This tool will export all local changes that it made to #
     ECHO #         the path's environment variable.                            #
     ECHO #                                                                     #
-    ECHO #     The environment variables will be exported only if this script  #
+    ECHO #     The environment variables will be exported only if this tool    #
     ECHO #     executes without any error.                                     #
     ECHO #                                                                     #
     ECHO #######################################################################
