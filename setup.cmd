@@ -93,12 +93,12 @@ EXIT /B 0
     ECHO #                                                                     #
     ECHO #                      T O O L   S E T U P                            #
     ECHO #                                                                     #
-    ECHO #     'MESON' is an open source build system meant to be both         # 
+    ECHO #     'MESON' is an open source build system meant to be both         #
     ECHO #      extremely fast, and, even more importantly, as user            #
     ECHO #      friendly as possible.                                          #
     ECHO #                                                                     #
     ECHO # TOOL   : MESON                                                      #
-    ECHO # VERSION: 0.54.999                                                   #
+    ECHO # VERSION: 0.55.999                                                   #
     ECHO # ARCH   : x64                                                        #
     ECHO #                                                                     #
     ECHO # USAGE:                                                              #
