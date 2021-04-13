@@ -97,6 +97,21 @@ EXIT /B 0
     ECHO #      extremely fast, and, even more importantly, as user            #
     ECHO #      friendly as possible.                                          #
     ECHO #                                                                     #
+    ECHO #      Website https://mesonbuild.com                                 #
+    ECHO #      Repository https://github.com/XNerv/meson                      #
+    ECHO #                                                                     #
+    ECHO #      Observation    The repository above is a fork from original    #
+    ECHO #          repository https://github.com/mesonbuild/meson.            #
+    ECHO #                                                                     #
+    ECHO #      Attention    This is a slightly modified version, compared to  #
+    ECHO #          the original. As our pull requests in the original         #
+    ECHO #          repository have not yet been accepted, we will use our     #
+    ECHO #          modified version. The original version on which we base    #
+    ECHO #          ours is 0.55.999.                                          #
+    ECHO #                                                                     #
+    ECHO #       After running the %SCRIPT_NAME%, the tool will be                 #
+    ECHO #       available in the system path.                                 #
+    ECHO #                                                                     #
     ECHO # TOOL   : MESON                                                      #
     ECHO # VERSION: 0.55.999                                                   #
     ECHO # ARCH   : x64                                                        #
